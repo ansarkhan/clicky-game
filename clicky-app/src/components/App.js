@@ -1,5 +1,5 @@
 import React from 'react';
-// import Header from './Header';
+import Header from './Header';
 import Game from './Game';
 // import Test from './Test';
 
@@ -7,6 +7,7 @@ import Game from './Game';
 function App() {
     return (
       <div>
+        <Header />
         <Game />
       </div>
     );
